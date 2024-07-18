@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
    MediaPlayer mediaPlayer;
    boolean isRecording = false; // flag to track the state of recording
    String base64Audio = ""; // variable to store base64 encoded audio data
-   private static final String API_URL = "http://121.242.232.220:5002/translate_audio"; // API endpoint URL
+   private static final String API_URL = "API_URL"; // API endpoint URL
 
    @Override
    protected void onCreate(Bundle savedInstanceState) {
