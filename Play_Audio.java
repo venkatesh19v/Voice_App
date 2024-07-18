@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
     MediaPlayer mediaPlayer;
     boolean isRecording = false;
     boolean isPlaying = false;
-    private static final String API_URL = "http://121.242.232.220:5002/translate_audio";
+    private static final String API_URL = "API_URL"; // API endpoint URL
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
